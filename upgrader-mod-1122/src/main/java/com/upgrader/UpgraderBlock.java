@@ -40,7 +40,7 @@ public class UpgraderBlock extends Block {
     public UpgraderBlock() {
         super(Material.ROCK, MapColor.PURPLE);
         setRegistryName(UpgraderMod.MODID, "upgrader");
-        setUnlocalizedName(UpgraderMod.MODID + ".upgrader");
+       setTranslationKey(UpgraderMod.MODID + ".upgrader");
         setCreativeTab(CreativeTabs.MISC);
         setHardness(3.0F);
         setResistance(10.0F);
